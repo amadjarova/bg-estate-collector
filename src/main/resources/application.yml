@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: estate-crawler-service
+  profiles:
+    active: dev
+  main:
+    banner-mode: off
+
+server:
+  port: 8080
+
+crawler:
+  thread-count: 16
+  connection-timeout-ms: 5000
+  user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36"
